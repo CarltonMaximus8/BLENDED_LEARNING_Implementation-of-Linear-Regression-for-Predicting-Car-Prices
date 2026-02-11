@@ -8,10 +8,26 @@ To write a program to predict car prices using a linear regression model and tes
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Start the program.
+2. Import necessary libraries (pandas, numpy, sklearn, matplotlib, seaborn, statsmodels
+3. Load the dataset `CarPrice_Assignment.csv` into a dataframe
+4. Select independent variables: enginesize, horsepower, citympg,
+5. Select Dependent Variable: Price.
+6. Split the data set into training and validation sets (80-20%).
+7. Initialize StandardScaler
+8. Scale the training and testing feature data.
+9. Create a Linear Regression model.
+10. Train the model on the scaled training data.
+11. Use the test data to predict car prices.
+12. Model coefficients and intercept display.
+13. Calculate performance metrics (MAE, RMSE, R² score
+14. Plot Actual vs Predicted prices to check for linearity.
+15. Compute residuals (actual – predicted values).
+16. Perform Durbin-Watson test to check autocor
+17. Plot residuals against the predicted values for checking homoscedasticity.
+18. Plot histogram and Q-Q plot to check the normality of the residuals.
+19. Display all plots and results.
+20. Stop the program.
 
 ## Program:
 ```
